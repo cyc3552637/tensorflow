@@ -65,7 +65,7 @@ sess = tf.InteractiveSession()
 sess.run(tf.initialize_all_variables())
 for i in range(20000):
     batch = mnist.train.next_batch(50)
-    if i % 100 == 0:  # 训练100次，验证一次
+    if i % 100 == 0:  # 训练100次，验证一次,每100次查看一次
         train_acc = accuracy.eval(feed_dict={x: batch[0], y_actual: batch[1], keep_prob: 1.0})
         print('step', i, 'training accuracy', train_acc)
         train_step.run(feed_dict={x: batch[0], y_actual: batch[1], keep_prob: 0.5})
