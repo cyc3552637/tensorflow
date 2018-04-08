@@ -24,4 +24,4 @@ with tf.Session() as sess:
         #用训练数据实际输入x和y
         sess.run(train_step, feed_dict={x: batch_xs, y_actual: batch_ys})   #执行训练
         if(i%100==0):                  #每训练100次，测试一次
-            print ("accuracy:",sess.run(accuracy, feed_dict={x: mnist.test.images, y_actual: mnist.test.labels}))
+            print ("accuracy:", sess.run(accuracy, feed_dict={x: mnist.test.images, y_actual: mnist.test.labels}))
