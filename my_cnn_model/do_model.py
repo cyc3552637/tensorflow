@@ -5,7 +5,7 @@ import numpy as np
 
 path1 = "D:/pydemo/my_cnn_model/data/datasets/flower_photos/daisy/5547758_eea9edfd54_n.jpg"
 path2 = "D:/pydemo/my_cnn_model/data/datasets/flower_photos/dandelion/7355522_b66e5d3078_m.jpg"
-path3 = "D:/pydemo/my_cnn_model/data/datasets/flower_photos/roses/394990940_7af082cf8d_n.jpg"
+path3 = "D:/pydemo/my_cnn_model/data/datasets/flower_photos/roses/12240303_80d87f77a3_n.jpg"
 path4 = "D:/pydemo/my_cnn_model/data/datasets/flower_photos/sunflowers/6953297_8576bf4ea3.jpg"
 path5 = "D:/pydemo/my_cnn_model/data/datasets/flower_photos/tulips/11746080_963537acdc.jpg"
 
