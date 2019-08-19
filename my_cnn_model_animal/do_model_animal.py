@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 
 
-path1 = "D:/pydemo/my_cnn_model_animal/data/datasets/animal_photos/bird/001.jpg"
+path1 = "D:/pydemo/my_cnn_model_animal/data/datasets/animal_photos/bird/002.jpg"
 path2 = "D:/pydemo/my_cnn_model_animal/data/datasets/animal_photos/cat/102.jpg"
 path3 = "D:/pydemo/my_cnn_model_animal/data/datasets/animal_photos/dog/202.jpg"
 path4 = "D:/pydemo/my_cnn_model_animal/data/datasets/animal_photos/duck/303.jpg"
