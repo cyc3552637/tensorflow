@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:/pydemo/my_cnn_model_animal/data/model/animal/model.ckpt"
+all_model_checkpoint_paths: "D:/pydemo/my_cnn_model_animal/data/model/animal/model.ckpt"
